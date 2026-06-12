@@ -1,7 +1,7 @@
 {
-  "name": "ansofra-ts",
+  "name": "ansofra",
   "version": "2.1.0",
-  "description": "Ansofra Framework for TypeScript - a software building framework (TypeScript port of the Ansofra PHP framework)",
+  "description": "Ansofra Framework by Newdich Technology - a software building framework ",
   "main": "dist/ansofra/index.js",
   "scripts": {
     "dev": "tsx watch ansofra/index.ts",

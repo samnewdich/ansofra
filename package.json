@@ -24,9 +24,9 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/newdich/ansofra.git"
+    "url": "https://github.com/samnewdich/ansofra.git"
   },
-  "homepage": "https://github.com/newdich/ansofra#readme",
+  "homepage": "https://github.com/samnewdich/ansofra#readme",
   "engines": {
     "node": ">=18"
   }
