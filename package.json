@@ -1,6 +1,6 @@
 {
   "name": "ansofra",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Ansofra Framework by Newdich Technology - build software fast. Run: npx ansofra new myapp",
   "bin": {
     "ansofra": "bin/ansofra.js"

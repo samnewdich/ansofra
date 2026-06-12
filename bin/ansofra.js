@@ -22,7 +22,7 @@ const log = (msg) => console.log(msg);
 
 function banner() {
   log("==========================================================");
-  log("   ANSOFRA FRAMEWORK (TypeScript)  v" + pkg.version);
+  log("   ANSOFRA FRAMEWORK - (by Newdich Technology)  v" + pkg.version);
   log("   Build software fast, your way.");
   log("==========================================================");
 }
