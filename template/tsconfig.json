@@ -1,0 +1,52 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "rootDir": ".",
+    "outDir": "dist",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "declaration": false,
+    "sourceMap": false,
+
+    /* PSR-4 style path aliases - just like composer.json autoload of the PHP version */
+    "baseUrl": ".",
+    "paths": {
+      "@NewdichApp/*": ["app/*"],
+      "@NewdichApis/*": ["apis/*"],
+      "@NewdichAuth/*": ["Auth/*"],
+      "@NewdichCache/*": ["Cache/*"],
+      "@NewdichController/*": ["Controller/*"],
+      "@NewdichControllerApp/*": ["Controller/App/*"],
+      "@NewdichControllerSrc/*": ["Controller/Src/*"],
+      "@NewdichDto/*": ["Dto/*"],
+      "@NewdichMail/*": ["Mail/*"],
+      "@NewdichMiddleware/*": ["Middleware/*"],
+      "@NewdichRoute/*": ["route/*"],
+      "@NewdichSchema/*": ["Schema/*"],
+      "@NewdichSrc/*": ["src/*"],
+      "@NewdichFiles/*": ["Files/*"]
+    }
+  },
+  "include": [
+    "ansofra/index.ts",
+    "bootstrap.ts",
+    "Auth/**/*",
+    "Cache/**/*",
+    "Controller/**/*",
+    "Dto/**/*",
+    "Files/**/*",
+    "Mail/**/*",
+    "Middleware/**/*",
+    "Schema/**/*",
+    "apis/**/*",
+    "app/**/*",
+    "route/**/*",
+    "src/**/*"
+  ],
+  "exclude": ["node_modules", "dist", "ansofra/public"]
+}

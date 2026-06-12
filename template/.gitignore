@@ -1,0 +1,5 @@
+node_modules/
+dist/
+.env
+ansofra/public/uploads/*
+!ansofra/public/uploads/index.html

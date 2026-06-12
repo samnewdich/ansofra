@@ -1,0 +1,33 @@
+{
+  "name": "ansofra",
+  "version": "1.0.0",
+  "description": "Ansofra Framework by Newdich Technology - build software fast. Run: npx ansofra new myapp",
+  "bin": {
+    "ansofra": "bin/ansofra.js"
+  },
+  "files": [
+    "bin/",
+    "template/",
+    "README.md"
+  ],
+  "keywords": [
+    "ansofra",
+    "framework",
+    "typescript",
+    "api",
+    "backend",
+    "newdich",
+    "scaffold",
+    "starter"
+  ],
+  "author": "Newdich Technology",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/newdich/ansofra.git"
+  },
+  "homepage": "https://github.com/newdich/ansofra#readme",
+  "engines": {
+    "node": ">=18"
+  }
+}

@@ -1,0 +1,42 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "title": "Newdich_Admins_Area_Endpoints",
+        "version": "2.1.0"
+    },
+    "paths": {
+        "/apiadmin/getusers": {
+            "post": {
+                "summary": "Admin - get all registered users (paginated)",
+                "tags": [
+                    "Admins Area"
+                ],
+                "requestBody": {
+                    "required": false,
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "type": "object",
+                                "properties": {
+                                    "offset": {
+                                        "type": "integer"
+                                    },
+                                    "limit": {
+                                        "type": "integer"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "List of users"
+                    }
+                }
+            }
+        }
+    },
+    "components": {},
+    "tags": []
+}

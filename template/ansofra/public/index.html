@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ansofra TS | Welcome</title>
+  <style>
+    :root {
+      --primary: #4f46e5;
+      --secondary: #6366f1;
+      --bg: #0f172a;
+      --card: #111827;
+      --text: #e5e7eb;
+      --muted: #9ca3af;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; }
+    body {
+      background: linear-gradient(135deg, #020617, #0f172a);
+      color: var(--text);
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+    }
+    .card {
+      background: var(--card);
+      border: 1px solid rgba(99, 102, 241, .25);
+      border-radius: 18px;
+      padding: 48px 40px;
+      max-width: 640px;
+      text-align: center;
+      box-shadow: 0 25px 60px rgba(0,0,0,.5);
+    }
+    h1 { font-size: 2.2rem; margin-bottom: 8px; }
+    h1 span { color: var(--secondary); }
+    p.tagline { color: var(--muted); margin-bottom: 28px; }
+    .links { display: flex; gap: 14px; justify-content: center; flex-wrap: wrap; }
+    a.btn {
+      display: inline-block;
+      padding: 12px 22px;
+      border-radius: 10px;
+      text-decoration: none;
+      color: #fff;
+      background: var(--primary);
+      transition: .2s;
+      font-size: .95rem;
+    }
+    a.btn.outline { background: transparent; border: 1px solid var(--secondary); color: var(--secondary); }
+    a.btn:hover { transform: translateY(-2px); }
+    .footer { margin-top: 30px; color: var(--muted); font-size: .8rem; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>ANSOFRA <span>TS</span></h1>
+    <p class="tagline">The Ansofra Framework for TypeScript — build software fast, your way.</p>
+    <div class="links">
+      <a class="btn" href="api">Users Area Docs (/api)</a>
+      <a class="btn outline" href="apiadmin/run_migration">Run Migration</a>
+    </div>
+    <div class="footer">Ansofra Framework • TypeScript Edition</div>
+  </div>
+</body>
+</html>
